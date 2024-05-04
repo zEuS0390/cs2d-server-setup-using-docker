@@ -4,6 +4,7 @@
 base_url="http://unrealsoftware.de"
 cs2d_dir="."
 
+# Create a directory if it does not exist
 if [ ! -d ${cs2d_dir} ]; then
     mkdir -p ${cs2d_dir}
 fi
